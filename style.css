@@ -6,11 +6,12 @@
 }
 
 body {
-    padding: 25px;
-    background-color: #F5F7FA;
+    /* padding: 25px; */
+    background-color: #FFFFFF;
 }
 
 nav {
+    padding: 0 25px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -51,28 +52,95 @@ button:hover{
     background-color: #53d157;
 }
 
-.hero {
-    height: 90dvh;
+.section {
     display: flex;
-    padding: 100px;
+    padding: 200px;
     align-items: center;
     justify-content: space-around;
+    background-color: #FFFFFF;
 }
 
-.hero div * {
+.hero {
+    padding: 200px;
+    height: 90dvh;
+    background-color: #F5F7FA;
+}
+
+.section div * {
     margin-bottom: 20px;
 }
 
-.hero div h1{
+.section div h1{
     font-size: 40pt;
     color: #666;
 }
 
-.hero div p {
+.section div p {
     color: #666;
     font-size: 16pt;
 }
 
-.hero div h1 span{
+.section div h1 span{
     color: #4CAF4F;
+}
+
+.section img {
+    width: 500px;
+}
+
+footer{
+    background-color: #263238;
+    color:#FFFFFF;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    flex: 2;
+}
+
+.left div {
+    margin-right: 50px;
+}
+
+.left div * {
+    margin-bottom: 15px;
+}
+
+.right {
+    flex: 1;
+}
+
+.right * {
+    margin-bottom: 15px;
+}
+
+.left *{
+    display: block;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+.search {
+    display: flex;
+    background-color: #515B60;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 15px;
+    width: 250px;
+}
+
+.search p, .search img {
+    margin-bottom: 0;
 }
