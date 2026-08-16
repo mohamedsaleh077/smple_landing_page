@@ -50,3 +50,29 @@ button {
 button:hover{
     background-color: #53d157;
 }
+
+.hero {
+    height: 90dvh;
+    display: flex;
+    padding: 100px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hero div * {
+    margin-bottom: 20px;
+}
+
+.hero div h1{
+    font-size: 40pt;
+    color: #666;
+}
+
+.hero div p {
+    color: #666;
+    font-size: 16pt;
+}
+
+.hero div h1 span{
+    color: #4CAF4F;
+}
