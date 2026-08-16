@@ -1,0 +1,1 @@
+Sample Landing page for ITI ReactJS Training, uiux: https://www.figma.com/design/U5u2R7kl1Gndg5hGaeFehh/Minimal-Landing-Page-Design-%7C-Website-Home-Page-Design-%7C-Agency-Website-UI-Design--Community-?node-id=213-948
